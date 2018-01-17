@@ -19,18 +19,17 @@ export class ShowMovies extends Component{
             <h3> Movies</h3>
             <hr />
             <table >
-            <tbody>
-                <tr>
-                <th>Movie</th>
-                <th>Rating</th> 
-                </tr>
+                <tbody>
+                    <tr>
+                        <th>Movie</th>
+                        <th>Rating</th> 
+                    </tr>
                     {movieList}
-            </tbody>
+                </tbody>
             </table>
           </div>
         )
-    }
-    
+    } 
 }
 
 export default ShowMovies;
